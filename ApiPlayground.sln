@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.RestApi", "ApiPlayground.RestApi\ApiPlayground.RestApi.csproj", "{50955BF1-0093-4302-B6CC-5D39F81D8F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.Database", "ApiPlayground.Database\ApiPlayground.Database.csproj", "{32BAD773-6F6D-48CD-899D-ED12D4BE7280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50955BF1-0093-4302-B6CC-5D39F81D8F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50955BF1-0093-4302-B6CC-5D39F81D8F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50955BF1-0093-4302-B6CC-5D39F81D8F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50955BF1-0093-4302-B6CC-5D39F81D8F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
