@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.JsonConvert",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.BirdMinimalApi", "ApiPlayground.BirdMinimalApi\ApiPlayground.BirdMinimalApi.csproj", "{7F75DF08-F249-4D8E-BF56-AACD69B16725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.Domain", "ApiPlayground.Domain\ApiPlayground.Domain.csproj", "{BC90357F-CC8D-4E0B-88A1-85C97590B590}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{7F75DF08-F249-4D8E-BF56-AACD69B16725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F75DF08-F249-4D8E-BF56-AACD69B16725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F75DF08-F249-4D8E-BF56-AACD69B16725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC90357F-CC8D-4E0B-88A1-85C97590B590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC90357F-CC8D-4E0B-88A1-85C97590B590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC90357F-CC8D-4E0B-88A1-85C97590B590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC90357F-CC8D-4E0B-88A1-85C97590B590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
