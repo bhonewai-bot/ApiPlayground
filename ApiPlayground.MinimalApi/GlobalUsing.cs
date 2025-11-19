@@ -1,0 +1,2 @@
+global using ApiPlayground.Database.AppDbContextModels;
+global using Microsoft.EntityFrameworkCore;
