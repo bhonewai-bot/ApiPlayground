@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.RestApi", "Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.Database", "ApiPlayground.Database\ApiPlayground.Database.csproj", "{32BAD773-6F6D-48CD-899D-ED12D4BE7280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.Shared", "ApiPlayground.Shared\ApiPlayground.Shared.csproj", "{CFC8975E-23DE-4023-880A-1DC0BE6F3D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.ConsoleApp", "ApiPlayground.ConsoleApp\ApiPlayground.ConsoleApp.csproj", "{68EC7C29-E02A-4943-93F9-83E5A690F58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BAD773-6F6D-48CD-899D-ED12D4BE7280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC8975E-23DE-4023-880A-1DC0BE6F3D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC8975E-23DE-4023-880A-1DC0BE6F3D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC8975E-23DE-4023-880A-1DC0BE6F3D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC8975E-23DE-4023-880A-1DC0BE6F3D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EC7C29-E02A-4943-93F9-83E5A690F58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EC7C29-E02A-4943-93F9-83E5A690F58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EC7C29-E02A-4943-93F9-83E5A690F58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EC7C29-E02A-4943-93F9-83E5A690F58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
