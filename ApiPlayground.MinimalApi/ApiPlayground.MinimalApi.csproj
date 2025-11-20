@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ApiPlayground.Database\ApiPlayground.Database.csproj" />
+      <ProjectReference Include="..\ApiPlayground.Domain\ApiPlayground.Domain.csproj" />
     </ItemGroup>
 
 </Project>
