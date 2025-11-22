@@ -1,4 +1,6 @@
 using ApiPlayground.Database.AppDbContextModels;
+using ApiPlayground.Domain.Models;
+using ApiPlayground.Domain.Models.Blog;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiPlayground.Domain.Features.Blog;
