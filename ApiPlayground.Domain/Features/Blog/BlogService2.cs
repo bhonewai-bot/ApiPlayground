@@ -1,15 +1,13 @@
 using ApiPlayground.Database.AppDbContextModels;
-using ApiPlayground.Domain.Models;
-using ApiPlayground.Domain.Models.Blog;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiPlayground.Domain.Features.Blog;
 
-public class BlogService : IBlogService
+public class BlogService2 : IBlogService
 {
     private readonly AppDbContext _db;
 
-    public BlogService(AppDbContext db)
+    public BlogService2(AppDbContext db)
     {
         _db = db;
     }

@@ -2,10 +2,11 @@
 
 using ApiPlayground.ConsoleApp;
 using ApiPlayground.Shared;
+using Microsoft.Extensions.DependencyInjection;
 
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+// AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.Read();
 // adoDotNetExample.Edit(4);
 /*adoDotNetExample.Create(
@@ -19,9 +20,9 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
     "Delicious in Dungeon, is a Japanese manga series written and illustrated by Ryoko Kui. It was serialized in Enterbrain's seinen manga magazine Harta from February 2014 to September 2023, with its chapters collected in 14 tankōbon volumes.");*/
 // adoDotNetExample.Delete(1003);
 
-DapperExample dapperExample = new DapperExample();
+// DapperExample dapperExample = new DapperExample();
 // dapperExample.Read();
-dapperExample.Edit(7);
+// dapperExample.Edit(7);
 /*dapperExample.Create(
     "God Hand",
     "Clover Studio",
@@ -32,3 +33,14 @@ dapperExample.Edit(7);
     "Capcom",
     "Sengoku BASARA 4 is the fourth main installment of the Sengoku BASARA video game series, developed and published by Capcom for the PlayStation 3. The game was released in Japan on January 23, 2014.");*/
 // dapperExample.Delete(7);
+
+var services = new ServiceCollection()
+    .AddSingleton<AdoDotNetExample>()
+    .AddSingleton<DapperExample>()
+    .BuildServiceProvider();
+
+var adoDotNetExample = services.GetRequiredService<AdoDotNetExample>();
+// adoDotNetExample.Read();
+
+var dapperExample = services.GetRequiredService<DapperExample>();
+dapperExample.Read();

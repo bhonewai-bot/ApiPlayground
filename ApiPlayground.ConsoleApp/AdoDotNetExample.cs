@@ -5,7 +5,7 @@ namespace ApiPlayground.ConsoleApp;
 
 public class AdoDotNetExample
 {
-    private readonly string _connectionString = "Server=.;Database=DotNetTrainingBatch5;User ID=sa;Password=sasa@123;TrustServerCertificate=True;";
+    private readonly string _connectionString = AppSettings.ConnectionString;
     private readonly AdoDotNetService _adoDotNetService;
 
     public AdoDotNetExample()

@@ -15,9 +15,9 @@ namespace ApiPlayground.RestApi.Controllers
     {
         private readonly AppDbContext _db;
 
-        public BlogsController()
+        public BlogsController(AppDbContext db)
         {
-            _db = new AppDbContext();
+            _db = db;
         }
 
         [HttpGet]
